@@ -1,0 +1,1003 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:'Raleway', sans-serif;
+	/*font-weight:100;*/
+}
+/***********************************
+				HEADER
+************************************/
+.cursor-pointer{
+	cursor:pointer;
+}
+.menu_header{
+	position:fixed;
+	width:100%;
+	height:68px;
+	top:0px;
+	background-color:#232323;
+	z-index:5;
+}
+
+.menu_logo{
+	border-style: solid;
+	border-color:rgba(0, 85, 143, 1) transparent transparent transparent;
+	border-color:white transparent transparent transparent;
+	border-width: 80px 80px 0px 0px;
+	height: 0;
+	left:0;
+	width: 380px;
+	position: absolute;
+	margin:0;
+	z-index:3;
+	-webkit-transition: border-width 2s;
+	-moz-transition: border-width 2s;
+	-o-transition: border-width 2s;
+
+}
+.menu_logo_area_img{
+	position:absolute;
+	float:left;
+	background-color:transparent;
+	width:380px;
+	height:80px;
+	text-align:center;
+	z-index:3;
+}
+.menu_logo_img{
+	float:left;
+	width:130px;
+	height:auto;
+	margin-left:10px;
+	margin-top:5px;
+	
+}
+
+.linea_divisora{
+	float:left;
+	  -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    margin-top:33px;
+    color:rgba(0, 0, 0, .4);
+}
+
+.menu_logo_slogan{
+	float:left;
+	margin-top:15px;
+	margin-right: 5px;
+}
+.menu_btns{
+	float:right;
+	color:white;
+	
+}
+.menu_btns ul li{
+	float:left;
+	list-style:none;
+	padding:25px;
+}
+.menu_btns ul li:hover{
+	background-color:rgba(255, 255, 255, .1);
+	color:rgba(0, 85, 143, 1);
+}
+
+.menu_sandwich{
+	display:none;
+	float:right;
+	background-color:transparent;
+	text-align:center;
+	width:68px;
+	height:68px;
+	z-index:2;
+
+}
+.menu_sandwich ul{
+	padding-top:10px;
+	
+}
+.menu_sandwich ul li{
+	list-style:none;
+	display:block;
+	float:left;
+	color:white;
+	width:100%;
+	line-height:12px;
+	margin:0px;
+}
+.menu_sandwich ul .a{
+		-webkit-transition: margin .3s;
+	-moz-transition: margin .3s;
+	-o-transition: margin .3s;
+}
+.menu_sandwich ul .b{
+		-webkit-transition: margin .8s;
+	-moz-transition: margin .8s;
+	-o-transition: margin .8s;
+}
+.menu_sandwich ul .c{
+		-webkit-transition: margin 1s;
+	-moz-transition: margin 1s;
+	-o-transition: margin 1s;
+}
+
+.menu_sandwich_cerrar_a{
+	position:fixed;
+	list-style:none;
+	top:20px;
+	right:10px;
+	-ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color:rgba(255, 255, 255, .0);
+    z-index:19;
+    -webkit-transition: color 1s;
+	-moz-transition: color 1s;
+	-o-transition: color 1s;
+	display:none;
+
+}
+.menu_sandwich_cerrar_b{
+	position:fixed;
+	list-style:none;
+	top:20px;
+	right:20px;
+	-ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    color:rgba(255, 255, 255, .0);
+    z-index:19;
+    -webkit-transition: color 1s;
+	-moz-transition: color 1s;
+	-o-transition: color 1s;
+	display:none;
+
+}
+
+.menu_sandwich_cerrar ul .e{
+	padding-right: 10px;
+	-ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+
+}
+
+
+
+.menu_sandwich_seleccion{
+	display:none;
+	position:fixed;
+	width:68px;
+	height:68px;
+	right:0px;
+	top:0px;
+	background-color:transparent;
+	z-index:20;
+}
+.menu_sandwich_btns{
+	display:none;
+	position:fixed;
+	top:-270px;
+	background-color:#232323;
+	width:100%;
+	height:auto;
+	text-align:left;
+	color:white;
+	z-index:-10;
+	
+}
+.menu_sandwich_btns ul{
+	padding-top:20px;
+	
+	
+}
+.menu_sandwich_btns li{
+	width:50%;
+	padding:20px;
+	margin-left:22%;
+	list-style:none;
+	border-bottom:1px solid rgba(255,255,255,.2);
+
+
+}
+.menu_sandwich_btns_bordrer{
+	
+}
+.menu_sandwich_btns li:hover{
+	background-color:rgba(255, 255, 255, .1);
+	color:rgba(0, 85, 143, 1);
+}
+
+
+/***********************************
+				CODIGO
+************************************/
+.presentacion{
+
+}
+.presentacion_imagen_0{
+	background: url(../img/portada2.jpeg) 50% 50% no-repeat;
+	-webkit-transition: background .9s;
+	-moz-transition: background .9s;
+	-o-transition: background .9s;
+}
+.presentacion_imagen_1{
+	background: url(../img/Presentacion2.jpeg) 50% 50% no-repeat;
+	-webkit-transition: background .9s;
+	-moz-transition: background .9s;
+	-o-transition: background .9s;
+}
+.presentacion_imagen_2{
+	background: url(../img/Construccion.jpg) 50% 50% no-repeat;
+	-webkit-transition: background .9s;
+	-moz-transition: background .9s;
+	-o-transition: background .9s;
+}
+
+.presentacion_imagen_0, .presentacion_imagen_1, .presentacion_imagen_2{
+	width: 100%;
+	height:700px;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: -10;
+	overflow: hidden;
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+}
+
+
+.presentacion_blur{
+	position:fixed;
+	width:100%;
+	height:700px;
+	z-index:-9;
+	background-color:rgba(0, 0, 0, .5);
+}
+.presentacion_imagen_0_mensaje{
+	position:fixed;
+	margin-top:200px;
+	width:500px;
+	right:50px;
+	text-align:left;
+	color:white;
+	z-index:-1;
+}
+.boton_leermas{
+	width:180px;
+	height:45px;
+	border-style: solid;
+	text-align:center;
+	border-width: 1px;
+	border-color:rgba(255, 255, 255, 1);
+	margin-top:30px;
+}
+.boton_leermas_mnsj {
+	margin-top:10px;
+	font-weight: 100;
+}
+.mensaje_title{
+	font-size:34px;
+	color:rgba(0, 145, 203, 1);
+}
+.mensaje_subtitle{
+	font-size:34px;
+	color:white;
+	margin-bottom:20px;
+}
+.mensaje_giro{
+	height:28px;
+	font-size:20px;
+	font-weight: 100;
+	font-size: 1.2em;
+	text-align:center;
+	background-color:rgba(0, 0, 0, 0.7);
+	margin-bottom:20px;
+	padding-top:5px;
+
+}
+.mensaje_texto{
+	font-weight: 100;
+}
+.bienvenida{
+	float:left;
+	margin-top:700px;
+	width:100%;
+	height:auto;
+	background-color:white;
+	color:rgb(140, 140, 140);
+
+}
+.bienvenida_imgs{
+	width:100%;
+	height:500px;
+}
+.bienvenida_imgs_mnsj, .bienvenida_mensaje{
+	float:left;
+	width:33.33%;
+	height:500px;
+}
+.bienvenida_imgs_mnsj_escrito{
+	width:80%;
+	margin-left:10%;
+	margin-top:20px;
+}
+.bienvenida_imgs_mnsj_escrito_linea{
+	color:rgba(0, 105, 163, 1);
+	margin-top:-10px;
+	margin-bottom:10px;
+}
+
+.bienvenida_imgs_mnsj_img{
+	/*background: url(../img/maquina_2.jpeg) 50% 50% no-repeat;*/
+	width: 80%;
+	height:50%;
+	margin:10%;
+	margin-left:10%;
+	margin-top:40px;
+}
+.bienvenida_imgs_mnsj_img_2{
+	background: url(../img/piso_2.jpeg) 50% 50% no-repeat;
+	width: 80%;
+	height:50%;
+	margin:10%;
+	margin-left:10%;
+	margin-top:40px;
+}
+.bienvenida_imgs_mnsj_img_blur{
+	position:relative;
+	width:100%;
+	height:100%;
+	text-align:center;
+	background-color:rgba(0, 0, 0, .3);
+	-webkit-transition: background-color .9s;
+	-moz-transition: background-color .9s;
+	-o-transition: background-color .9s;
+}
+.bienvenida_imgs_mnsj_img_blur_2{
+	position:relative;
+	width:100%;
+	height:100%;
+	text-align:center;
+	background-color:rgba(0, 0, 0, .3);
+	-webkit-transition: background-color .9s;
+	-moz-transition: background-color .9s;
+	-o-transition: background-color .9s;
+}
+.bienvenida-texto-onblur, .bienvenida-texto-onblur2{
+	text-align:center; 
+	font-size:30px;
+	color:transparent;
+	font-weight:100;
+	vertical-align:middle;
+	padding-top:80px;
+	-webkit-transition: color .9s;
+	-moz-transition: color .9s;
+	-o-transition: color .9s;
+}
+
+
+.bienvenida_imgs_mnsj img, .bienvenida_mensaje img{
+	width:80%;
+	padding:30px;
+	}
+.bienvenida_mensaje{
+	text-align:left;
+}
+.bienvenida_mensaje_mensaje{
+	margin-top:35px;
+	margin-right:30px;
+}
+.bienvenida_mensaje_mensaje ul{
+	list-style:none;
+}
+.bienvenida_mensaje_mensaje ul li{
+	margin-top:20px;
+}
+.color_black{
+	color:black;
+}
+.margin_bottom_20{
+	margin-bottom:20px;
+}
+
+
+
+.cargando_color{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:rgb(45, 45, 45);
+	z-index:100;
+	visibility:hidden;
+	animation:modal 0s 2s forwards;
+}
+@keyframes modal{
+	100%{
+		visibility:hidden;
+
+	}
+
+}
+.cargando_contenido{
+	margin-top:100px;
+}
+.medio_circulo_principal{
+	position:fixed;
+	border-radius:100%;
+	border-style: solid;
+	border-color:rgba(30, 95, 153, 1) rgba(30, 95, 153, 1) transparent rgba(30, 95, 153, 1);
+	border-width: 50px;
+	height: 0;
+	width: 0px;
+	margin-top:250px;
+	margin-left: 45%;
+}
+
+.area_oculta{
+	position:fixed;
+	float:left;
+	border-radius:100%;
+	border-style: solid;
+	border-color:rgb(45, 45, 45);
+	left:5px;
+	top:5px;
+	border-width: 45px;
+	height: 0;
+	width: 0px;
+margin-top:250px;
+	margin-left: 45%;
+}
+.medio_circulo_principal2{
+	position:fixed;
+	border-radius:100%;
+	border-style: solid;
+	border-color:rgba(30, 95, 153, 1) rgba(30, 95, 153, 1) transparent rgba(30, 95, 153, 1);
+	border-width: 30px;
+	left:20px;
+	top:20px;
+	height: 0;
+	width: 0px;
+margin-top:250px;
+	margin-left: 45%;
+}
+.area_oculta2{
+	position:fixed;
+	border-radius:100%;
+	border-style: solid;
+	border-color:rgb(45, 45, 45);
+	border-width: 25px;
+	left:25px;
+	top:25px;
+	height: 0;
+	width: 0px;
+	margin-top:250px;
+	margin-left: 45%;
+
+}
+
+
+
+
+
+
+/***********************************
+				FOOTER
+************************************/
+footer{
+	float:left;
+	width:100%;
+	height:auto;
+	background-color:#282828;
+	color:white;
+}
+
+footer  #contenido
+{
+	display: inline-block;
+	text-align: center;
+	float: left;
+}
+
+footer  #contenido1,#contenido2
+{
+	display: inline-block;
+	text-align: center;
+	float: left;
+}
+
+footer #contenido3
+{
+	display: inline-block;
+	text-align: center;
+	float: left;
+}
+
+#contenido,#contenido1,#contenido2,#contenido3{
+	width:20%;
+	margin-left:4%;
+	margin-top:1%;
+}
+
+#contenido img{
+	width:120%;
+}
+
+footer li 
+{
+	list-style: none;
+	margin-bottom: 15px;
+	margin-top: 8px;
+}
+
+footer #sociales
+{
+	width: 45px;
+	margin-top: -12px;
+}
+
+
+footer #raya 
+{
+	width: 90%;
+	margin-left: 5%;
+	margin-right:5%;
+	float: center;
+
+}
+footer #ultimo
+{
+	font-size: .8em;
+	margin-left: 5%;
+	margin-top: 15px;
+	margin-bottom:15px;
+}
+
+#ultimo ul li{
+	float:left;
+	text-align:left;
+	width:50%;
+}
+.a1,.a2
+{
+	color: white;
+	text-decoration: none;
+	
+}
+#ultimo ul #footer_politicas{
+	float:left;
+	text-align:right;
+}
+#footer_politicas h4{
+	margin-right:10%;
+}
+
+
+/***********************************
+		SUBPAGINAS-PRESENTACION
+************************************/
+
+.subpaginas-presentacion{
+	width:100%;
+	height:200px;
+	margin-top: 55px;
+	background: url(../img/portada2.jpeg) 50% 50% no-repeat;
+}
+.subpaginas-presentacion-blur{
+	position:absolute;
+	width:100%;
+	height:200px;
+	background-color:rgba(0, 0, 0, .5);
+	z-index:3;
+}
+.subpaginas-presentacion-titulo{
+	position:absolute;
+	width:400px;
+	height:200px;
+	z-index:4;
+}
+.subpaginas-presentacion-titulo-mensaje{
+	width:200px;
+	color:white;
+	margin-left:100px;
+	margin-top:90px;
+}
+.subpaginas-presentacion-titulo-mensaje-top{
+	width:300px;
+	border-style: solid;
+	border-color: transparent transparent rgba(255, 255, 255, .7) transparent;
+	border-width: 0px 0px 1px 0px;
+}
+.subpaginas-presentacion-titulo-mensaje-mensaje{
+	margin-left:80px;
+	font-weight:900;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.subpaginas-presentacion-titulo-mensaje-bottom{
+	width:300px;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, .7) transparent transparent transparent;
+	border-width: 1px 0px 0px 0px;
+}
+
+/***********************************
+	FIN-SUBPAGINAS-PRESENTACION
+************************************/
+
+
+
+/***********************************
+			SERVICIOS
+************************************/
+.seccion-tipodeservicios{
+	width:100%;
+	height:300px;
+	background-color:white;
+}
+.servicios-tipodeservicios-seccion, .servicios-tipodeservicios-seccion_2{
+	float:left;
+	width:50%;
+	height:300px;
+}
+.servicios-tipodeservicios-img, .servicios-tipodeservicios-img2{
+	width:80%;
+	height:240px;
+	margin-left:14%;
+	margin-top:30px;
+	overflow:hidden;
+}
+.servicios-tipodeservicios-img{
+	background: url(../img/Rentas2.jpg) 50% 50% no-repeat;
+}
+.servicios-tipodeservicios-img2{
+	background: url(../img/Construccion2.jpg) 50% 50% no-repeat;
+}
+
+#separacion{
+	margin-left:6%;
+}
+.servicios-tipodeservicios-blur, .servicios-tipodeservicios-blur_2{
+	position:relative;
+	width:100%;
+	height:240px;
+	bottom:240px;
+	text-align:center;
+	background-color:rgba(0, 145, 203, .7);
+	-webkit-transition: bottom .5s;
+	-moz-transition: bottom .5s;
+	-o-transition: bottom .5s;
+
+}
+.servicios-tipodeservicios-blur-first, .servicios-tipodeservicios-blur-first_2{
+	position:relative;
+	width:100%;
+	height:240px;
+	bottom:240px;
+	text-align:center;
+	background-color:rgba(0, 0, 0, .4);
+	-webkit-transition: bottom .5s;
+	-moz-transition: bottom .5s;
+	-o-transition: bottom .5s;
+}
+.servicios-tipodeservicios-blur-first h1, .servicios-tipodeservicios-blur-first_2 h1{
+	padding-top:200px;
+	padding-left: 50%;
+	font-size:30px;
+	color:white;
+}
+.servicios-tipodeservicios-blur h1, .servicios-tipodeservicios-blur_2 h1{
+	padding-top:90px;
+	color:white;
+	font-size:50px;
+}
+
+#blur_2{
+	background-color:rgba(242, 208, 34, .7);
+}
+.servicios-rentas, .servicios-construccion{
+	float:left;
+	width:100%;
+	height:auto;
+	background-color:white;
+	display:block;
+
+}
+.servicios-construccion{
+	display:none;
+}
+.servicios-rentas-ul, .servicios-construccion-ul{
+	width:90%;
+	margin-left:5%;
+	height:auto;
+	list-style:none;
+}
+.servicios-li-li{
+	float:left;
+	width:30%;
+	height: 500px;
+	background-color:rgba(240, 240, 240, 1);
+	color:black;
+}
+
+.servicios-rentas-li, .servicios-construccion-li{
+	float:left;
+	width:100%;
+	height:300px;
+}
+.servicios-li-li h1{
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+}
+.servicios-li-li h4{
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	margin-right:20px;
+}
+.servicios-rentas-margin-right, .servicios-construccion-margin-right{
+	margin-right:5%;
+}
+.servicios-rentas-margin-top, .servicios-construccion-margin-top{
+	margin-top: 50px;
+}
+.servicios-rentas-margin-bottom, .servicios-construccion-margin-bottom{
+	margin-bottom:50px;
+}
+.servicios-img-1{
+	background: url(../img/Maquinas/helicopteropiso.jpg) 50% 50% no-repeat;
+}
+.servicios-img-2{
+	background: url(../img/Maquinas/Bailarinaspisp.jpg) 50% 50% no-repeat;
+
+}
+.servicios-img-3{
+	background: url(../img/Maquinas/IMG_1626.JPG) 50% 50% no-repeat;
+}
+.servicios-img-4{
+	background: url(../img/Maquinas/IMG_1627.JPG) 50% 50% no-repeat;
+}
+.servicios-img-5{
+	background: url(../img/Maquinas/Brazoarticular.jpg) 50% 50% no-repeat;
+}
+.servicios-img-6{
+	background: url(../img/Maquinas/Elevadoradetijera.jpg) 50% 50% no-repeat;
+}
+.servicios-img-7{
+	background: url(../img/Maquinas/IMG_1630.JPG) 50% 50% no-repeat;
+}
+.servicios-img-8{
+	background: url(../img/Maquinas/vibradorademochila.jpg) 50% 50% no-repeat;
+}
+.servicios-img-9{
+	background: url(../img/Maquinas/Taladro.jpg) 50% 50% no-repeat;
+}
+.servicios-construccion-img-1{
+	background: url(../img/Construccion/Piso-img1.jpeg) 50% 50% no-repeat;
+}
+.servicios-construccion-img-2{
+	background: url(../img/Construccion/Piso-imgEstructural.jpg) 50% 50% no-repeat;
+}
+.servicios-construccion-img-3{
+	background: url(../img/Construccion/piso-imgPretensado.jpg) 50% 50% no-repeat;
+}
+.servicios-construccion-img-4{
+	background: url(../img/Construccion/piso-imgPulido.jpg) 50% 50% no-repeat;
+}
+.servicios-construccion-img-5{
+	background: url(../img/Construccion/Piso-img1.jpeg) 50% 50% no-repeat;
+}
+.servicios-construccion-img-6{
+	background: url(../img/Construccion/Piso-img1.jpeg) 50% 50% no-repeat;
+}
+.servicios-construccion-img-7{
+	background: url(../img/Construccion/Piso-img1.jpeg) 50% 50% no-repeat;
+}
+.servicios-construccion-img-8{
+	background: url(../img/Construccion/Piso-img1.jpeg) 50% 50% no-repeat;
+}
+.servicios-construccion-img-9{
+	background: url(../img/Construccion/Piso-img1.jpeg) 50% 50% no-repeat;
+}
+.servicios-construccion-img-10{
+	background: url(../img/Construccion/Piso-img1.jpeg) 50% 50% no-repeat;
+}
+.servicios-construccion-img-11{
+	background: url(../img/Construccion/Piso-img1.jpeg) 50% 50% no-repeat;
+}
+.servicios-construccion-img-12{
+	background: url(../img/Construccion/Piso-img1.jpeg) 50% 50% no-repeat;
+}
+.servicios-construccion-img-13{
+	background: url(../img/Construccion/Piso-imgEstampado.jpg) 50% 50% no-repeat;
+}
+
+/***********************************
+		 TERMINA-SERVICIOS
+************************************/
+
+/*
+	EXTRAS
+*/
+.display{
+		display:none;
+	}
+
+/***********************************
+			MEDIA QUERYS
+************************************/
+@media screen and (max-width: 920px){
+	.menu_btns ul{
+		display:none;
+	}
+	.menu_sandwich{
+		display:block;
+	}
+	.menu_sandwich_seleccion{
+	display:block;
+	}
+
+	.menu_sandwich_btns{
+	display:block;
+	}
+
+	.menu_sandwich_cerrar_a{
+		display:block;
+	}
+	.menu_sandwich_cerrar_b{
+		display:block;
+	}
+
+
+	#contenido,#contenido1,#contenido2,#contenido3{
+		width:44%;
+		margin-left:4%;
+		margin-top:1%;
+	}
+	
+	#contenido img{
+		width:77%;
+	}
+	.bienvenida_imgs_mnsj{
+	width:50%;
+	}
+	.bienvenida_mensaje{
+	width:100%;
+	height:380px;
+	text-align:center;
+	}
+	.bienvenida_mensaje_mensaje{
+		width:70%;
+		margin-left:15%;
+	}
+	.display{
+		display:block;
+	}
+}
+@media screen and (max-width: 600px){
+	.menu_logo{
+		width:360px;
+	}
+
+	#contenido,#contenido1,#contenido2,#contenido3{
+		width:90%;
+		margin-left:5%;
+		margin-top:2%;
+	}
+	.bienvenida_imgs_mnsj{
+	width:100%;
+	}
+	.bienvenida_mensaje{
+	height:440px;
+	}
+
+}
+@media screen and (max-width: 480px){
+	.menu_logo{
+		width:140px;
+	}
+	.menu_logo_img{
+		width:120px;
+
+	}
+	.menu_logo_slogan{
+		display:none;
+	}
+	.linea_divisora{
+		display:none;
+	}
+	.menu_logo_slogan h5{
+		font-size:.6em;
+	}
+	.seccion{
+		margin-top:500px;
+	}
+
+.presentacion_imagen_0_mensaje{
+	width:300px;
+	text-align:center;
+	right:40px;
+}
+
+	.mensaje_title{
+	font-size:20px;
+	}
+	.mensaje_subtitle{
+		font-size:20px;
+	}
+	.mensaje_giro{
+		font-size:13px;
+	}
+	.mensaje_texto{
+		font-size:16px;
+	}
+.boton_leermas{
+	margin-left:21%;
+}
+
+
+
+}
+@media screen and (max-width: 435px){
+	.presentacion_imagen_0_mensaje{
+	right:55px;
+}
+
+
+}
+
+@media screen and (max-width: 380px){
+	.presentacion_imagen_0_mensaje{
+	right:40px;
+}
+}
+
+
+@media screen and (max-width: 350px){
+
+.presentacion_imagen_0_mensaje{
+	right:10px;
+}
+
+	.mensaje_title{
+	font-size:20px;
+	}
+	.mensaje_subtitle{
+		font-size:20px;
+	}
+	.mensaje_giro{
+		font-size:13px;
+	}
+	.mensaje_texto{
+		font-size:16px;
+	}
+.boton_leermas{
+	margin-left:20%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
